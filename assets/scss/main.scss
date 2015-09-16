@@ -1,0 +1,43 @@
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  background: green;
+}
+
+li, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+h3 {
+  margin: 0;
+  padding: 5px;
+  background: linear-gradient(rgba(122, 123, 129, 1), rgba(75, 77, 81, 1));
+
+  &:hover {
+    background: linear-gradient(rgba(173, 207, 86, 1), rgba(117, 138, 35, 1));
+  }
+}
+
+.bottom-level-list {
+  padding: 0;
+  display: none;
+}
+
+.bottom-level-list-item {
+  background: rgba(229, 229, 229, 1);
+  border-top: 1px solid grey;
+  padding: 5px;
+}
+
+// .bottom-level-list {
+//   display: none;
+// }
+//
+// .bottom-level-list.is-active {
+//   display: block;
+// }

@@ -1,0 +1,27 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  background: green; }
+
+li, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+h3 {
+  margin: 0;
+  padding: 5px;
+  background: linear-gradient(#7a7b81, #4b4d51); }
+  h3:hover {
+    background: linear-gradient(#adcf56, #758a23); }
+
+.bottom-level-list {
+  padding: 0;
+  display: none; }
+
+.bottom-level-list-item {
+  background: #e5e5e5;
+  border-top: 1px solid grey;
+  padding: 5px; }
+
+/*# sourceMappingURL=main.css.map */
